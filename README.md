@@ -88,9 +88,7 @@ pip install -r requirements.txt
 
 - pre-trained model 다운로드
 
-```bash
-https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip
-```
+<a href="https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip">여기 누르쇼</a>
 
 위 프로젝트 구조처럼 project 안에 압축을 풀어주면 됩니다.
 
