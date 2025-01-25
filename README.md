@@ -1,7 +1,7 @@
 ## 1. 프로젝트 구조
 
 ```
-tts_project/
+chat_with_danaka/
 ├── checkpoints_v2       # pre-trained model
 ├── gui/                 # GUI 관련 모듈
 │   ├── __init__.py      
