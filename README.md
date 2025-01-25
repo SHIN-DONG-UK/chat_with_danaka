@@ -22,7 +22,23 @@ chat_with_danaka/
 
 우분투 22.04에서 개발되었습니다.
 
-### 2.1 Python 설치
+### 2.1 OpenVoice 관련 환경 설정
+
+- 프로젝트 클론 및 의존성 패키지 설치
+
+```bash
+git clone https://github.com/SHIN-DONG-UK/chat_with_danaka.git
+cd chat_with_danaka
+pip install -r requirements.txt
+```
+
+- pre-trained model 다운로드
+
+<a href="https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip">여기 누르쇼</a>
+
+위 프로젝트 구조처럼 project 안에 압축을 풀어주면 됩니다.
+
+### 2.2 Python 설치
 
 우분투 22.04의 기본 Python 버전은 3.10입니다.
 
@@ -43,7 +59,7 @@ sudo apt install python3.9 python3.9-venv
 python3.9 --version
 ```
 
-### 2.2 가상환경
+### 2.3 가상환경
 
 - 가상환경 만들기
 
@@ -57,7 +73,7 @@ python3.9 -m venv [가상환경 이름]
 source venv/bin/activate
 ```
 
-### 2.3 CUDA 관련 설정
+### 2.4 CUDA 관련 설정
 
 이거는 그냥 ubuntu 설치할 때 third-party 설정해서 깔았습니다.
 
@@ -76,21 +92,7 @@ print(torch.cuda.is_available())
 
 `True`라고 뜨면 됩니다
 
-### 2.4 OpenVoice 관련 환경 설정
 
-- 프로젝트 클론 및 의존성 패키지 설치
-
-```bash
-git clone https://github.com/SHIN-DONG-UK/chat_with_danaka.git
-cd chat_with_danaka
-pip install -r requirements.txt
-```
-
-- pre-trained model 다운로드
-
-<a href="https://myshell-public-repo-host.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip">여기 누르쇼</a>
-
-위 프로젝트 구조처럼 project 안에 압축을 풀어주면 됩니다.
 
 ### 2.5 Melo TTS 설치
 
