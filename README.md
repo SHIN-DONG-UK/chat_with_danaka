@@ -138,18 +138,21 @@ pip install openai==0.27.8
 
 ### 3.3 GUI 모듈(tts_gui.py)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0d09fab-f760-445a-969a-74459f3b88cd/188d374b-98f1-43c7-811c-7ad486217f2b/image.png)
+![image](https://github.com/user-attachments/assets/1be874fc-30bb-483e-ba57-eef8684f9a5f)
 
 - 다양한 reference 음성을 적용해 테스트 해볼 수 있는 프로그램입니다.
 
 ### 3.4 GUI 모듈2(openai_gui.py)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0d09fab-f760-445a-969a-74459f3b88cd/01c28040-f4fa-463f-a4ef-48f2ec83231a/image.png)
+![image (1)](https://github.com/user-attachments/assets/5050ffa8-e3cf-49ff-a894-7a98be580a38)
 
 - openai api로 gpt와 대화하는 프로그램입니다.
 - Send하면 음성과 함께 텍스트가 출력됩니다
 
 ## 4. 프로그램 실행 방법
+### 4.0 openai api key
+![Screenshot from 2025-01-25 19-36-40](https://github.com/user-attachments/assets/4ca1fa53-65ca-42f2-b5b2-5b63c58c31ec)
+- ./gui/openai_gui.py > 본인 key 넣으쇼
 
 ### 4.1 기본 실행
 
@@ -159,6 +162,6 @@ python main.py
 
 ### 4.2 gui 바꿔서 실행 방법
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0d09fab-f760-445a-969a-74459f3b88cd/69344d96-9d56-4c85-9445-079242002e06/image.png)
+![image (3)](https://github.com/user-attachments/assets/a7c093b5-3551-481f-ba4b-a594c6fbaa53)
 
 - 주석 바꾸면 됩니다.
