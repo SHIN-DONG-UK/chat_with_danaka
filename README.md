@@ -81,8 +81,8 @@ print(torch.cuda.is_available())
 - 프로젝트 클론 및 의존성 패키지 설치
 
 ```bash
-git clone ~~
-cd ~~
+git clone https://github.com/SHIN-DONG-UK/chat_with_danaka.git
+cd chat_with_danaka
 pip install -r requirements.txt
 ```
 
