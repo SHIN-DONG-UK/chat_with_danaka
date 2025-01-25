@@ -22,6 +22,12 @@ chat_with_danaka/
 
 우분투 22.04에서 개발되었습니다.
 
+### 2.0 git clone
+```bash
+git clone https://github.com/SHIN-DONG-UK/chat_with_danaka.git
+cd chat_with_danaka
+```
+
 ### 2.1 Python 설치
 
 우분투 22.04의 기본 Python 버전은 3.10입니다.
@@ -62,8 +68,6 @@ source venv/bin/activate
 - 프로젝트 클론 및 의존성 패키지 설치
 
 ```bash
-git clone https://github.com/SHIN-DONG-UK/chat_with_danaka.git
-cd chat_with_danaka
 pip install -r requirements.txt
 ```
 
